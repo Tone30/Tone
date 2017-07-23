@@ -16,5 +16,15 @@ namespace ToneApp
         {
             MessageBox.Show("OK");
         }
+
+
+        private void BtnRegister_Click(object sender, RoutedEventArgs e)
+        {
+            string str = $"sss{0}code";
+
+            this.Title = "注册号" + str;
+
+            MessageBox.Show("注册不成功");
+        }
     }
 }

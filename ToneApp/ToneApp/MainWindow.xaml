@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        
         <Button Content="Button" HorizontalAlignment="Left" Click="ButtonBase_OnClick" Margin="160,96,0,0" VerticalAlignment="Top" Width="170" Height="56"/>
+        <Button Content="注册" Name="BtnRegister" HorizontalAlignment="Left" Click="BtnRegister_Click" Margin="181,221,0,0" VerticalAlignment="Top" Width="149" Height="47"/>
 
     </Grid>
 </Window>
